@@ -1,0 +1,26 @@
+/* To Bring font-family to our project */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.edureka {
+    width: 100px;
+    height: 100px;
+    margin-top: 16px;
+    font: normal normal 600 70px/106px Poppins;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+}
+
+.header {
+    background-image:linear-gradient(to top right,#481414,#9D0E0E00), url("https://source.unsplash.com/1000x700/?italian,food");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    height: 480px;
+    background-size: cover;
+    vertical-align:middle;
+    /* width: 100%; */
+}
